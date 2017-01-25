@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tx_count" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/editText_count" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tx_ExpirantionDuration"
+                tools:text="@string/setExpirationDuration" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:ems="10"
+                android:id="@+id/editText_ExperiationDuration"
+                android:inputType="number" />
+
+            <TextView
+                android:text="@string/setExpirationTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tx_ExpirationTime" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:ems="10"
+                android:id="@+id/editText_ExpirationTime"
+                android:inputType="number" />
+
+            <TextView
+                android:text="@string/setFastestinterval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tx_Fastestinterval" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editText_Fastestinterval"
+                android:inputType="number" />
+
+            <TextView
+                android:text="@string/setInterval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tx_Interval" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editText_Interval"
+                android:inputType="number" />
+
+            <TextView
+                android:text="@string/setMaxWaitTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tx_MaxWaitTime" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editText_MaxWaitTime"
+                android:inputType="number" />
+
+            <TextView
+                android:text="@string/setNumUpdates"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tx_NumUpdates" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editText_NumUpdates"
+                android:inputType="number" />
+
+            <TextView
+                android:text="@string/setPriority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tx_Priority" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rg_PRIORITY" >
+
+                <RadioButton
+                    android:text="@string/PRIORITY_BALANCED_POWER_ACCURACE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_PRIORITY_BALANCED_POWER_ACCURACE"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:text="@string/PRIORITY_HIGH_ACCURACY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_PRIORITY_HIGH_ACCURACY"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:text="@string/PRIORITY_LOW_POWER"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_PRIORITY_LOW_POWER"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:text="@string/PRIORITY_NO_POWER"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_PRIORITY_NO_POWER"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+            <TextView
+                android:text="@string/setSmallestDisplacement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tx_SmallestDisplacement"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editText_SmallestDisplacement"
+                android:inputType="number" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

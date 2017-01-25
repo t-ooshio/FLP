@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FLP</string>
+
+    //設定用
+    <string name="setExpirationDuration">ExpirationDuration(リクエストの期間msec)</string>
+    <string name="setExpirationTime">ExpirationTime(要求の有効期限msec)</string>
+    <string name="setFastestinterval">Fastestinterval(位置更新の最速間隔msec)</string>
+    <string name="setInterval">Interval(更新間隔msec)</string>
+    <string name="setMaxWaitTime">MaxWaitTime(位置更新の最大待ち時間msec)</string>
+    <string name="setNumUpdates">NumUpdates(更新回数)</string>
+    <string name="setPriority">Priotity</string>
+    <string name="setSmallestDisplacement">SmallestDisplacement(位置更新の最小変位m)</string>
+
+    <string name="PRIORITY_BALANCED_POWER_ACCURACE">PRIORITY_BALANCED_POWER_ACCURACE</string>
+    <string name="PRIORITY_HIGH_ACCURACY">PRIORITY_HIGH_ACCURACY</string>
+    <string name="PRIORITY_LOW_POWER">PRIORITY_LOW_POWER</string>
+    <string name="PRIORITY_NO_POWER">PRIORITY_NO_POWER</string>
+</resources>
